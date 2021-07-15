@@ -1,35 +1,44 @@
-h1
-{
-  color: #ff0000;
+h1{
+  color: white;
 }
-.header
-{
-  background-color: #ff00ff;
+
+/* * {
+  border: solid;
+} */
+
+.header{
+  background-color: cadetblue;
   display: flex;
   justify-content: space-between;
 }
 
-.site-description
-{
+.site-description{
   display: flex;
   flex-direction: column;
   justify-content: first baseline;
 }
 
-.grid
-{
+.grid{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.footer
-{
+.footer{
   display: flex;
   justify-content: flex-end;
 }
 
-
-{
+p,h2{
   text-align: center;
+}
+
+body
+{
+   background-color:#000000;
+}
+
+.item
+{
+  color: #ffffff;
 }
